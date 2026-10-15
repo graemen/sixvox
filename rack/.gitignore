@@ -1,0 +1,9 @@
+build/
+dist/
+cores/
+plugin.so
+plugin.dylib
+plugin.dll
+test/bridge_test
+test/resample.o
+dep/

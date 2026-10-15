@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VOX panel, 14 HP. Hole positions from beads/hardware_design/panel. Labels are drawn by the module (src/Vox.cpp). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="71.12mm" height="128.5mm" viewBox="0 0 71.12 128.5">
+<rect x="0" y="0" width="71.12" height="128.5" fill="#e9e8e4"/>
+<rect x="0" y="0" width="71.12" height="13.6" fill="#dcdad4"/>
+<rect x="2.336" y="55.6" width="9.2" height="16.2" rx="4.6" fill="none" stroke="#3aa6a0" stroke-width="0.45"/>
+<rect x="59.585" y="55.6" width="9.2" height="16.2" rx="4.6" fill="none" stroke="#e3a23a" stroke-width="0.45"/>
+<rect x="59.585" y="72.3" width="9.2" height="15.7" rx="4.6" fill="none" stroke="#c8467a" stroke-width="0.45"/>
+<line x1="18.385" y1="84.4" x2="18.385" y2="89.6" stroke="#9a9890" stroke-width="0.3"/>
+<line x1="29.836" y1="84.4" x2="29.836" y2="89.6" stroke="#9a9890" stroke-width="0.3"/>
+<line x1="41.286" y1="84.4" x2="41.286" y2="89.6" stroke="#9a9890" stroke-width="0.3"/>
+<line x1="52.736" y1="84.4" x2="52.736" y2="89.6" stroke="#9a9890" stroke-width="0.3"/>
+<line x1="6.936" y1="83.2" x2="6.936" y2="89.6" stroke="#9a9890" stroke-width="0.3"/>
+<line x1="3" y1="89.3" x2="68.12" y2="89.3" stroke="#c9c6be" stroke-width="0.3"/>
+<line x1="3" y1="119.2" x2="68.12" y2="119.2" stroke="#c9c6be" stroke-width="0.3"/>
+<rect x="46.76" y="102.9" width="23.4" height="14.9" rx="1.6" fill="#34332f"/>
+</svg>

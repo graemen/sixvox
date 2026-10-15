@@ -1,0 +1,23 @@
+{
+  "slug": "VOX",
+  "name": "VOX",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "VOX",
+  "author": "VOX contributors",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Vox",
+      "name": "VOX",
+      "description": "Speech processor: the VOX firmwares for Mutable Instruments Beads hardware, running in VCV Rack",
+      "tags": ["Granular", "Effect", "Vocoder", "Hardware clone"]
+    }
+  ]
+}
