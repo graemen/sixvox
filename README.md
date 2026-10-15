@@ -77,3 +77,4 @@ The user manual for all algorithms is the "VOX for Beads — User Manual" doc.
 ## License
 
 The VOX code is MIT licensed ([`LICENSE`](LICENSE)), like the rest of the Mutable Instruments eurorack code it builds on.
+# sixvox
