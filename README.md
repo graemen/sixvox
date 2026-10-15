@@ -1,4 +1,4 @@
-# VOX — speech-processing firmwares for Mutable Instruments Beads
+# SIXVOX — speech-processing firmwares for Mutable Instruments Beads
 
 Alternative Beads firmwares for spoken-word material (speeches, interviews, ads), designed around a Make Noise Morphagene as the source.
 
@@ -12,7 +12,9 @@ Alternative Beads firmwares for spoken-word material (speeches, interviews, ads)
 | `vox_lpc`: LPC analysis and resynthesis (whisper, robot, formant warp, cross-synthesis, speaking chip) | implemented | [`lpc/`](lpc/README.md) |
 | `vox_multi`: all six algorithms in one firmware; hold MEDIA at power-on and choose with PITCH | implemented | [`multi/`](multi/README.md) |
 
-All seven firmwares are host-tested (`make -f vox/test/makefile check`) and have not yet been run on hardware. Each directory has a `prebuilt/` folder with the `.bin`, the audio-update `.wav` (decoded and checked against the `.bin` by `qpsk_decode_test`), and `SHA256SUMS`. Plans: [`plans/`](plans/README.md).
+All seven firmwares are host-tested (`make -f vox/test/makefile check`) and have been run on the hardware and verified working by a human. 
+Each directory has a `prebuilt/` folder with the `.bin`, the audio-update `.wav` (decoded and checked against the `.bin` by `qpsk_decode_test`), and `SHA256SUMS`. Plans: [`plans/`](plans/README.md).
+All firmwares have been test installed using the wav file. Make sure the source gain is high when using this method. 
 
 | Firmware | Flash (.text) | Host CPU (x86 instructions per 12-frame block, callgrind) |
 |---|---|---|
